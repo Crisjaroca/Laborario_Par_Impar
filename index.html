@@ -3,39 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/index.css">
     <title>Programa Par e Impar</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header>
-        <h1>Laboratorio Par E Impar</h1>
+        <a href="Inicio.html">
+            <h1>Programa Par e Impar</h1>
+        </a>
     </header>
+    
     <main>
         <section id="formulario">
-            <form id="parimparForm">
-                <label>Seleccione una opción:</label>
-                <select name="opcionesSelect" id="opcionesSelect">
-                    <option value="defaultOpt">Seleccione...</option>
-                    <option value="imparOpt">Impares</option>
-                    <option value="imparmaxOpt">Impares Mayores</option>
-                    <option value="parOpt">Pares</option>
-                    <option value="parmaxOpt">Pares Mayores</option>
+            <form id="formParImpar">
+                <label for="opciones">Seleccione una opción:</label>
+                <select name="opciones" id="opciones">
+                    <option value="default">Seleccione...</option>
+                    <option value="pares">Pares</option>
+                    <option value="impares">Impares</option>
+                    <option value="paresmax">Pares Mayores</option>
+                    <option value="imparesmax">Impares Mayores</option>
                 </select>
-                <input type="number" id="numeroInput" disabled>
-                <button type="button" id="verBtn" >Ver</button>
+                <input type="text" id="numeroInput" disabled>
+                <button type="button" id="verBtn">Ver</button>
             </form>
         </section>
-        <section id="resultadoNumeros">
+
+        <section id="resultado">
             <h2>Lista de números</h2>
             <section id="resultadoLista"></section>
         </section>
     </main>
-    <footer>
-        Laboratorio realizado por:<br><br>
-        55219009 - Cristian Javier Rodríguez Cárdenas<br>
-        55220010 - Frans Sebastian Villamizar Maldonado<br>
-        55217504 - Jorge Yesid Vargas Rodríguez
-    </footer>
+    
     <script src="js/index.js"></script>
 </body>
 </html>
