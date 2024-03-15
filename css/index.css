@@ -52,7 +52,7 @@ label {
 }
 
 select, input[type="number"], button {
-    width: 66.4vw; 
+    width: calc(900px);
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid var(--GrisUnPocoOscurito);
@@ -70,7 +70,7 @@ button:hover {
 }
 
 #numeroInput {
-    width: 64.7vw;
+    width: 878px;
 }
 
 #resultado h2 {
@@ -83,5 +83,5 @@ button:hover {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 63.3vw;
+    max-width: 855px;
 }
