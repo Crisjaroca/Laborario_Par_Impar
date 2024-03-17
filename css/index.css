@@ -69,8 +69,9 @@ button:hover {
     background-color: var(--GrisMedioOscurito);
 }
 
-#numeroInput {
+#numeroInput, #textoMayores {
     width: 878px;
+    display: none;
 }
 
 #resultado h2 {
